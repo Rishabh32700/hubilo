@@ -1,3 +1,13 @@
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.sidebar, .speakers-list, .speaker-item {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -82,13 +92,15 @@
   .speaker-name {
     margin: 0;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
   }
   
   .speaker-details {
     margin: 5px 0;
     font-size: 14px;
     color: #777;
+    font-weight: 400;
+
   }
   
   .edit-speaker {
